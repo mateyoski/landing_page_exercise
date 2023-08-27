@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: 120px;
+    border-radius: 10px;
+}
+
+.image-top {
+    height: 400px;
+    width: auto;
+    margin: 10px 60px;
+}
+
+.hero {
+    padding: 120px;
+    padding-bottom: 70px;
+    display:flex;
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 10px 60px;
+    border-radius: 6px;
+}
+
+.text-join > button {
+    align-self: flex-start;
+}
+
+a {
+    justify-content: flex-end;
+    margin: 5px 10px;
+    text-decoration: none;
+    color:rgb(199, 199, 199);
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+
+.text-join{
+    display:flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.images > img {
+    height: 215px;
+    width:auto;
+    border:solid #3882F6;
+    border-radius: 5px;
+}
+
+.middle-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px 120px;
+}
+
+.heading {
+    text-align: center;
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 70px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 0;
+    min-width: 100%;
+}
+
+.text-quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 40px 150px;
+}
+
+.text-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 40px 80px;
+    padding: 20px 60px;
+    border-radius: 6px;
+}
+
+.finisher {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    padding: 40px;
+    text-align: center;
+    color: #E5E7EB;
+    background-color: #1f2937;  
+}
